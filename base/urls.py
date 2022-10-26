@@ -16,6 +16,5 @@ urlpatterns = [
     path('logout/', views.logoutpage, name="LogoutPage"),
     path('updateuser/', views.updateuser, name="UpdateUser"),
     path('topics/', views.gettopics, name="TopicsPage"),
-    path('activity/', views.getactivity, name="ActivityPage"),
-    path('sharjeel/', views.getSharjeel, name="Sharjeel")
+    path('activity/', views.getactivity, name="ActivityPage")
 ]

@@ -174,7 +174,3 @@ def gettopics(request):
 def getactivity(request):
     all_messages = Message.objects.all().order_by('-created')
     return render(request, 'base/activity.html',{'room_messages':all_messages})
-
-# @login_required(login_url='LoginPage')
-def getSharjeel(request):
-    return render(request, 'base/sharjeelbio.html')
